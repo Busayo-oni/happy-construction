@@ -1,0 +1,539 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    padding: 30;
+    height: 90vh;
+}
+.cons{
+    color: #28dfcc;
+    margin: -10;
+    padding-bottom: 40;
+    font-family: poppins;
+
+}
+span{
+    color: #28dfcc;
+}
+.head, .pent{
+    width: 50%;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+nav ul li{
+    list-style-type: none;
+    font-family: roboto;
+}
+h1{
+    font-family: poppins, Arial, Helvetica, sans-serif;
+}
+p, b{
+    font-family: roboto;
+}
+p{
+    font-size: 0.8rem;
+}
+.head p{
+    font-size: 16px;
+    line-height: 1.7rem;
+}
+.toquis{
+    background-color: #28dfcc;
+    color: #fff;
+    padding: 10 20;
+    width: 25%;
+    border: 2px solid #28dfcc;
+    margin: 20 0;
+    border-radius: 15px 0px 15px 0px;
+}
+.line{
+    color: #28dfcc;
+    background-color: #fff;
+    width: 25%;
+    padding: 10 20;
+    border: 2px solid #28dfcc;
+    margin: 20 0;
+    border-radius: 15px 0px 15px 0px;
+}
+.price{
+    display: flex;
+    gap: 30px;
+}
+.pri p{
+    margin-top: -0px;
+}
+.pri{
+    position: relative;
+}
+.oran{
+    position: absolute;
+    left: -8;
+    width: 15px;
+    height: 20;
+    border-radius: 15px 0px 15px 0px;
+    background-color: rgba(255, 68, 0, 0.719);
+}
+.blue{
+    position: absolute;
+    left: -8;
+    width: 15px;
+    height: 20;
+    border-radius: 15px 0px 15px 0px;
+    background-color: rgba(0, 81, 255, 0.596);
+}
+.green{
+    position: absolute;
+    left: -8;
+    width: 15px;
+    height: 20;
+    border-radius: 15px 0px 15px 0px;
+    background-color: rgba(33, 177, 57, 0.671);
+}
+.pent{
+    background-image: url(https://thumbs.dreamstime.com/b/corner-house-paris-2236956.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50%;
+    border-radius: 0px 0px 0px 40%;
+}
+.label img{
+    width: 90%;
+    text-align: center;
+    image-rendering: auto;
+}
+.label{
+    text-align: center;
+}
+#about{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    padding: 0 30;
+}
+
+.about, .sky, .skyla{
+    width: 50%;
+}
+.about h2{
+    font-family: roboto;
+    font-size: 3.7rem;
+}
+.about p{
+    font-size: 16px;
+    line-height: 1.7rem;
+}
+#sky{
+    display: flex;
+    align-items: center;
+    padding: 0 50;
+    padding-bottom: 50;
+    gap: 50px;
+    /* height: 90%; */
+}
+.sky{
+    background-image: url(https://i0.wp.com/www.re-thinkingthefuture.com/wp-content/uploads/2021/04/A3913-Building-a-skyscraper-Cost-behind-the-structures.jpg?w=999);
+    height: 65vh;
+    width:50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100%;
+    border-radius: 0px 70% 0px 0%;
+}
+.multi{
+    display: flex;
+    gap: 20px;
+    margin: 30 0;
+}
+.orange{
+    position: absolute;
+    left: -8;
+    width: 25px;
+    top: 39px;
+    height: 20;
+    border-radius: 0px 15px 0px 15px;
+    background-color: rgba(255, 68, 0, 0.719);
+}
+.color{
+    position: relative;
+}
+.blue-en{
+    position: absolute;
+    left: -8;
+    top: 39px;
+    width: 25px;
+    height: 20;
+    border-radius: 0px 15px 0px 15px;
+    background-color: rgba(0, 81, 255, 0.596);
+}
+.green-en{
+    position: absolute;
+    left: -8;
+    width: 25px;
+    top: 39px;
+    height: 20;
+    border-radius: 0px 15px 0px 15px;
+    background-color: rgba(33, 177, 57, 0.671);
+}
+.color h3{
+    font-family: roboto;
+    font-size: 1.5rem;
+}
+.enginee{
+    text-align: center;
+}
+.enginee h2{
+    font-family: poppins;
+}
+.enginee h5{
+    font-family: roboto;
+    color: #28dfcc;
+}
+.enginee span{
+    font-family: roboto;
+    background-color: #28dfcc;
+    color: #fff;
+    padding: 5 8;
+    border-radius: 100%;
+}
+.engi{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 50 100;
+}
+.grid{
+    text-align: center;
+    box-shadow: 2px 2px 2px #dcdcdcd8, -2px -2px 2px #dcdcdcd8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20;
+
+}
+.grid img{
+    width: 100px;
+    border-radius: 100%;
+}
+.last{
+    background-image: linear-gradient(145deg, rgba(0, 0, 0, 0.452) 11%, rgba(0, 0, 0, 0.651) 74%), url(https://img.freepik.com/premium-photo/building-construction-new-skyscrapers_926199-2015512.jpg?w=360);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100%;
+    text-align: center;
+    padding: 50 150;
+    color: #fff;
+}
+.last span{
+    color: #fff;
+    font-size: 2rem;
+}
+.cons-en{
+    display: none;
+}
+.menu-btn{
+    display: none;
+}
+
+
+@media screen and (max-width: 767px){
+    .cons{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+        background-color: transparent;
+        color: #fff;
+    }
+    .cons-en{
+        color: #28dfcc;
+        margin: 0;
+        padding-bottom: 40;
+        font-family: poppins;
+        display: inline;
+    }
+    header{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 30;
+        height: 100vh;
+        width: 86%;
+    }
+    span{
+        color: #28dfcc;
+    }
+    .head, .pent{
+        width: 100%;
+    }
+    .side-menu{
+        display: flex;
+        position: fixed;
+        top: 0;
+        top: -150%; /* Start off-screen */
+        width: 250px;
+        height: 50%;
+        transition: top 0.6s ease;
+        
+    }
+    .side-menu.active {
+        /* left: 0; */
+        left: 50;
+        top: -12px;
+    }
+    nav ul{
+        /* position: fixed;
+        top: -150px; */
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column;
+    }
+    nav ul li{
+        list-style-type: none;
+        font-family: "roboto";
+        color: #fff;
+    }
+    h1{
+        font-family: poppins, Arial, Helvetica, sans-serif;
+        font-size: 25px;
+    }
+    p, b{
+        font-family: roboto;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+    .head p{
+        font-size: 14px;
+        line-height: 1.7rem;
+    }
+    .toquis{
+        background-color: #28dfcc;
+        color: #fff;
+        padding: 10 20;
+        width: 50%;
+        border: 2px solid #28dfcc;
+        margin: 20 0;
+        border-radius: 15px 0px 15px 0px;
+    }
+    .line{
+        color: #28dfcc;
+        background-color: #fff;
+        width: 45%;
+        padding: 10 20;
+        border: 2px solid #28dfcc;
+        margin: 20 0;
+        border-radius: 15px 0px 15px 0px;
+    }
+    .price{
+        display: flex;
+        gap: 30px;
+    }
+    .pri p{
+        margin-top: -0px;
+    }
+    .pri{
+        position: relative;
+    }
+    .oran{
+        position: absolute;
+        left: -8;
+        width: 15px;
+        height: 20;
+        border-radius: 15px 0px 15px 0px;
+        background-color: rgba(255, 68, 0, 0.719);
+    }
+    .blue{
+        position: absolute;
+        left: -8;
+        width: 15px;
+        height: 20;
+        border-radius: 15px 0px 15px 0px;
+        background-color: rgba(0, 81, 255, 0.596);
+    }
+    .green{
+        position: absolute;
+        left: -8;
+        width: 15px;
+        height: 20;
+        border-radius: 15px 0px 15px 0px;
+        background-color: rgba(33, 177, 57, 0.671);
+    }
+    .pent{
+        background-image: linear-gradient(145deg, rgba(0, 0, 0, 0.452) 11%, rgba(0, 0, 0, 0.651) 74%), url(https://thumbs.dreamstime.com/b/corner-house-paris-2236956.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 90vh;
+        background-size: 100%;
+        background-position: 50%;
+        border-radius: 0px 0px 60px 60px;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    .label img{
+        width: 90%;
+        text-align: center;
+        image-rendering: auto;
+    }
+    .label{
+        text-align: center;
+    }
+    #about{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    
+        padding: 0 10;
+    }
+    .about{
+        text-align: center;
+    }
+    
+    .about, .sky, .skyla{
+        width: 100%;
+    }
+    .about h2{
+        font-family: roboto;
+        font-size: 2rem;
+    }
+    .about p{
+        font-size: 16px;
+        line-height: 1.7rem;
+    }
+    #sky{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 50;
+        padding-bottom: 50;
+        gap: 0px;
+        /* height: 90%; */
+    }
+    .sky{
+        background-image: url(https://i0.wp.com/www.re-thinkingthefuture.com/wp-content/uploads/2021/04/A3913-Building-a-skyscraper-Cost-behind-the-structures.jpg?w=999);
+        height: 60vh;
+        width:100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 100;
+        background-position: 100%;
+        border-radius: 100px 0% 100px 0px;
+    }
+    .multi{
+        display: flex;
+        gap: 20px;
+        margin: 30 0;
+    }
+    .orange{
+        position: absolute;
+        left: -8;
+        width: 25px;
+        top: 39px;
+        height: 20;
+        border-radius: 0px 15px 0px 15px;
+        background-color: rgba(255, 68, 0, 0.719);
+    }
+    .color{
+        position: relative;
+    }
+    .blue-en{
+        position: absolute;
+        left: -8;
+        top: 39px;
+        width: 25px;
+        height: 20;
+        border-radius: 0px 15px 0px 15px;
+        background-color: rgba(0, 81, 255, 0.596);
+    }
+    .green-en{
+        position: absolute;
+        left: -8;
+        width: 25px;
+        top: 39px;
+        height: 20;
+        border-radius: 0px 15px 0px 15px;
+        background-color: rgba(33, 177, 57, 0.671);
+    }
+    .color h3{
+        font-family: roboto;
+        font-size: 1.5rem;
+    }
+    .enginee{
+        text-align: center;
+    }
+    .enginee h2{
+        font-family: poppins;
+    }
+    .enginee h5{
+        font-family: roboto;
+        color: #28dfcc;
+    }
+    .enginee .num{
+        font-family: roboto;
+        background-color: #28dfcc;
+        color: #fff;
+        padding: 5 8;
+        display: inline;
+        border-radius: 100%;
+        
+    }
+    .enginee span{
+        display: none;
+        
+    }
+    .engi{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+        padding: 50 100;
+    }
+    .grid{
+        text-align: center;
+        box-shadow: 2px 2px 2px #dcdcdcd8, -2px -2px 2px #dcdcdcd8;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20;
+    
+    }
+    .grid img{
+        width: 100px;
+        border-radius: 100%;
+    }
+    .last{
+        background-image: linear-gradient(145deg, rgba(0, 0, 0, 0.452) 11%, rgba(0, 0, 0, 0.651) 74%), url(https://img.freepik.com/premium-photo/building-construction-new-skyscrapers_926199-2015512.jpg?w=360);
+        background-size:cover;
+        height: 57%;
+        background-repeat: no-repeat;
+        background-size: 100vh;
+        background-position: 100%;
+        text-align: center;
+        padding: 5;
+        margin-top: 30;
+        color: #fff;
+    }
+    .last h2{
+        margin-bottom: -25;
+    }
+    .last span{
+        color: #fff;
+        font-size: 2rem;
+    }
+    .last p{
+        font-size: 12px;
+    }
+    
+}
